@@ -1,0 +1,25 @@
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', sans-serif; }
+body { background-color: #0f172a; color: #f8fafc; }
+.navbar { display: flex; justify-content: space-between; align-items: center; padding: 20px 50px; background: #1e293b; border-bottom: 2px solid #d97706; }
+.logo { font-size: 1.5rem; font-weight: bold; color: #f59e0b; }
+nav a { color: #f8fafc; text-decoration: none; margin-left: 20px; font-weight: 500; }
+.btn-cita { background: #d97706; padding: 8px 16px; border-radius: 6px; }
+.hero { text-align: center; padding: 100px 20px; background: linear-gradient(rgba(15,23,42,0.8), rgba(15,23,42,0.8)), url('https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=1200&q=80') center/cover; }
+.hero h1 { font-size: 3rem; color: #f59e0b; margin-bottom: 15px; }
+.btn-hero { display: inline-block; margin-top: 20px; background: #f59e0b; color: #0f172a; padding: 12px 28px; border-radius: 8px; font-weight: bold; text-decoration: none; }
+.services-container { padding: 60px 50px; text-align: center; }
+.services-container h2 { font-size: 2.2rem; color: #f59e0b; margin-bottom: 40px; }
+.cards-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 25px; }
+.card { background: #1e293b; padding: 25px; border-radius: 10px; border: 1px solid #334155; }
+.card h3 { color: #f8fafc; margin-bottom: 10px; }
+.price { color: #f59e0b; font-size: 1.4rem; font-weight: bold; margin-bottom: 10px; }
+.booking-container { display: flex; justify-content: center; align-items: center; min-height: 80vh; padding: 20px; }
+.booking-card { background: #1e293b; padding: 40px; border-radius: 12px; width: 100%; max-width: 450px; border: 1px solid #d97706; }
+.booking-card h2 { color: #f59e0b; margin-bottom: 25px; text-align: center; }
+.form-group { margin-bottom: 15px; text-align: left; }
+.form-group label { display: block; margin-bottom: 5px; color: #cbd5e1; }
+.form-group input, .form-group select { width: 100%; padding: 10px; border-radius: 6px; border: 1px solid #475569; background: #0f172a; color: #fff; }
+.btn-submit { width: 100%; padding: 12px; background: #f59e0b; color: #0f172a; border: none; border-radius: 6px; font-size: 1rem; font-weight: bold; cursor: pointer; margin-top: 10px; }
+.hidden { display: none; }
+#confirmation-msg { margin-top: 20px; padding: 15px; background: #065f46; color: #34d399; border-radius: 6px; text-align: center; font-weight: bold; }
+footer { text-align: center; padding: 20px; background: #020617; border-top: 1px solid #1e293b; color: #64748b; }
